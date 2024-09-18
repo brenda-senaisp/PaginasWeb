@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Ami";
+    src: url(AmidoneGrotesk.ttf);
+}
+.texto{
+    font-family: "Ami" , sans-serif ;
+    color:crimson;
+}

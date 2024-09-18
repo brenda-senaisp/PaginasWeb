@@ -1,0 +1,141 @@
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px ;
+}
+.titulo{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.capa{
+    width: 200px;
+    height: 270px;
+    border: 10px;
+    border-radius: 20px;
+}
+.linha1{
+    background-color: black;
+    width: 1px;
+    height: 230px;
+    margin: 10px;
+}
+.sinopse{
+    font-size: medium;
+    width: 700px;
+    height: 20px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+/* .linha{
+    background-color: black;
+    height: 1px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.subtitulo{
+    font-style:italic;
+    background-color: burlywood;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: 'Montserrat', sans-serif
+} 
+.Atores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto{
+    width: 500px;
+    height: 350px;
+}
+.cenas{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.ce1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cena1{
+    border: 6px;
+    border-radius: 50px;
+    width: 400px;
+    height: 250px;
+    padding: 15px;
+}
+.ce2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.cena2{
+    width: 430px;
+    height: 250px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.ce3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cena3{
+    width: 390px;
+    height: 250px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.comeco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 70px;
+}
+.topico{
+    font-style:italic;
+    background-color: burlywood;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Ator1{
+    width: 220px;
+    height: 290px;
+}
+.Nome1{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
