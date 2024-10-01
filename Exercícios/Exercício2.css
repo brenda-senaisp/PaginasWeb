@@ -55,7 +55,7 @@ header{
 .Atores {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -177,4 +177,68 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.Ator5{
+    border-radius: 20px;
+    width: 220px;
+    height: 290px;   
+}
+.Nome5{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Ator6{
+    border-radius: 20px;
+    width: 220px;
+    height: 290px;   
+}
+.Nome6{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Ator7{
+    border-radius: 20px;
+    width: 220px;
+    height: 290px;   
+}
+.Nome7{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Ator8{
+    border-radius: 20px;
+    width: 220px;
+    height: 290px;   
+}
+.Nome8{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fundoO{
+    background-color: rgb(248, 234, 213);
+    height: 250px;
+    width: 950px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opiniao{
+    width: 750px;
+    padding: 70px 15px;
+}
+.link{
+    font-style: italic;
 }
