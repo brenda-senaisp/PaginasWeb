@@ -35,21 +35,25 @@ a{
     width: auto;
     height: 15px;
     background-color: white;
+    border: 1px black solid;
 }
 .linha1{
     width: auto;
     height: 15px;
     background-color: #FCEEE7;
+    border: 1px black solid;
 }
 .linha2{
     width: auto;
     height: 15px;
     background-color: #F5B141;
+    border: 1px black solid;
 }
 .linha3{
     width: auto;
     height: 15px;
     background-color: #081C24;
+    border: 1px black solid;
 }
 .linha4{
     width: auto;
@@ -61,32 +65,38 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 715px;
+    height: 717px;
 }
 .texto{
-    color: white;
-    font-size: 70px;
-    padding: 30px;
-
+    color: #FAA314;
+    font-size: 60px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: 15px;
 }
-.promocao{
-    margin-top: -40px;
-    margin-left: 60%;
-        font-size: 160px;
-        font-weight: bold;
-        color: white;
-        position: relative;
-        display: inline-block;
-        text-shadow: -6px -2px 0 #F9A825, 
-                     2px -2px 0 black,  
-                    -2px 2px 0  #F5B141,  
-                     2px 2px 0 #F9A825; 
-                     padding: 0;
+.promo{
+    text-shadow: -2px -2px 0 #F9A825,
+    2px -2px 0 #ffffff,
+   -2px 2px 0 #ffffff,
+    2px 2px 0 #F9A825; 
+}
+.sub{
+    color: white;
+    font-size: 38px;
+    margin-top: -50px;
+    font-weight: lighter
+}
+.botao{
+    background-color: #F5B141;
+    width: 230px;
+    height: 65px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 15px;
 }
 .h1{
     width: 220px;
     height: 360px;
-
 }
 .h2{
     width: 230px;
@@ -98,8 +108,100 @@ a{
     margin-top: -100px;
 }
 .destaque{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #F5B141;
+    color: black;
+    height: 40px;  
+    border: 2px black solid; 
+}
+.textDestaque{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.destaques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.quadrinhos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    padding: 80px;
+    padding-bottom: 40px;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+.l{
+    height: 1px;
+    width: 290px;
     background-color: black;
+    color: black;
+    align-items: center;
+    margin-top: 15px;
+}
+.titulo{
+    font-weight: 900;
+    text-align: center;
+}
+.preco{
+    font-weight: bold;
+    margin-top: -8px;
+}
+.qua1{
+    height: 407px;
+    width: 298px;
+}
+.qua2{
+    height: 407px;
+    width: 290px;
+}
+.linhas{
+    margin-top: 40px;
+}
+.colecionador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;  
+}
+.imgItem{
+    width: 250px;
+    height: 250px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    padding: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    margin-right: -30px;
+    margin-left: -30px;
+}
+footer{
     color: white;
-    height: 50px;
-    
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    height: 190px;   
+    width: 1330px ;
+    margin-top: 90px;
+}
+.text{
+    font-weight: lighter;
 }
