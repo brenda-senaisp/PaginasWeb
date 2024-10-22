@@ -213,3 +213,16 @@ footer{
 .text{
     font-weight: lighter;
 }
+.inicio{
+    display: flex;
+    flex-direction: row;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+.seta{
+    width: 30px;
+    height: px;
+}
+
