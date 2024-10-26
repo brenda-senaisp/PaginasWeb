@@ -60,3 +60,49 @@ a{
     height: 15px;
     background-color: white;
 }
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.seta{
+    width: 25px;
+    height: 25px;
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.b1{
+    background-color: #F5B141;
+    border: 1px solid #081C24;
+    border-radius: 10px;
+        padding: 6px;
+        width: 90px;
+}
+.botao{
+    padding: 30px;
+}
+.fileira1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hq{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    height: 190px;   
+    width: 1490px ;
+    margin-top: 90px;
+}
