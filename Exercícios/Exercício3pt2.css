@@ -90,11 +90,18 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 .hq{
     text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
 }
-
+.hq img{
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
 footer{
     color: white;
     background-color: black;
