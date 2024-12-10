@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "mont";
+    src: url(font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "mont2";
+    src: url(font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "mont3";
+    src: url(font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "mont4";
+    src: url(font/Montserrat-ExtraBold.ttf);
+}
+header{
+    background-color:#FF8800 ;
+    font-family: "mont3";
+}
+.header{
+    display: flex;
+}
+.info{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 840px;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+}
+.banner{
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    right: 580px;
+}
+.filtro{
+    z-index: 1;
+    position: relative;
+    left: 1200px;
+}
+.info2 h1{
+ font-family: "mont3"; 
+ font-size: 72px;  
+}
+.info2 h3{
+    font-family: "mont"; 
+    position: relative;
+    bottom: 40px; 
+    font-size: 36px; 
+    font-weight: 100;
+   }
+.info2{
+    color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 250px;
+    left: 220px;
+}
+.comeco{
+    color: #FF8800;
+    font-family: "mont3";
+    font-size: 64px;
+    position: relative;
+    bottom: 175px;
+    margin: 20px;
+}
+.sub2{
+    font-family: "mont";
+    font-weight: 100 ;
+    font-size: 36px;
+    position: relative;
+    bottom: 155px;
+    margin: 20px;
+}
+.linha{
+    height: 1px;
+    background-color: black;
+    width: 1250px;
+    margin: 20px;
+    position: relative;
+    bottom: 150px;
+}
+.infos3{
+    display: flex;
+    justify-content: center;
+}
+.infos3 img{
+    width: 650px;
+    height: 450px;
+}
+.sobre h1{
+    font-family: "mont3";
+    color: #FF8800;
+    font-size: 72px;
+}
+.sobre h3{
+    font-family: "mont";
+    font-size: 32px;
+}
+.sobre{
+    width: 710px;
+    text-align: right;
+    position: relative;
+    bottom: 55px;
+}
+.infos4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+.infos4 img{
+    width: 650px;
+    height: 450px;
+}
+.sobre2 h1{
+    font-family: "mont3";
+    color: #FF8800;
+    font-size: 72px;    
+}
+.sobre2 h3{
+    font-family: "mont";
+    font-size: 32px;    
+}
+.sobre2{
+    width: 710px;
+    text-align: left;
+    position: relative;
+
+}
+.local{
+    background-color: #FF8800;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.local h1{
+    font-family: "mont3";
+    color: white;
+    font-size: 36px; 
+    text-decoration: underline;  
+    position: relative;
+}
+.local h3{
+    font-family: "mont";
+    font-size: 28px;    
+    color: white;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+.dest{
+    font-family: "mont3";
+}
+.avalia{
+    position: relative;
+    font-family: "mont3";
+    color: #FF8800;
+    top: 180px;
+    display: flex;
+    justify-content: end;
+}
+.avalia h1{
+    font-size: 72px;
+}
+.linha2{
+    height: 1.5px;
+    background-color: black;
+    width: 900px;
+    margin: 20px;
+    position: relative;
+    top: 120px;
+    left: 580px;
+
+}
+.avalia1{
+    font-family: "mont";
+    margin: 25px;
+}
+.avalia1 h2{
+    font-weight: 100;
+    font-size: 30px;
+
+}
+.linha3{
+    height: 1.5px;
+    background-color: black;
+    width: 1500px;
+}
+.avalias{
+    position: relative;
+    top: 150px;
+}
+footer{
+    background-color: #FF8800;
+    font-family: "mont3";
+    position: relative;
+    top: 280px;
+}
+.fnal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fnal a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+
+}

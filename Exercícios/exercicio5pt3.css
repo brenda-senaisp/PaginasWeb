@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "mont";
+    src: url(font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "mont2";
+    src: url(font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "mont3";
+    src: url(font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "mont4";
+    src: url(font/Montserrat-ExtraBold.ttf);
+}
+header{
+    background-color:#FF8800 ;
+    font-family: "mont3";
+}
+.header{
+    display: flex;
+}
+.info{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 840px;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+}
+.comeco{
+    color: #FF8800;
+    font-family: "mont3";
+    font-size: 64px;
+    position: relative;
+    bottom: 175px;
+    margin: 20px;
+}
+.sub2{
+    font-family: "mont";
+    font-weight: 100 ;
+    font-size: 36px;
+    position: relative;
+    bottom: 155px;
+    margin: 20px;
+}
+.linha{
+    height: 1px;
+    background-color: black;
+    width: 1250px;
+    margin: 20px;
+    position: relative;
+    bottom: 150px;
+}
+.comeco2{
+    position: relative;
+    top: 220px;
+}
+.nome h1{
+    font-family: "mont3";
+    color: #FF8800;
+    font-size: 36px;
+    font-weight: 200;
+}
+.nome{
+    position: relative;
+    top: 80px;
+    margin: 40px;
+}
+.nome2{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.inputs{
+    display: flex;
+}
+.nome3{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+button{
+    background-color: #FF8800;
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 1300px;
+    width: 160px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: #FF8800;
+    font-family: "mont3";
+    position: relative;
+    top: 200px;
+}
+.fnal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fnal a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+
+}
