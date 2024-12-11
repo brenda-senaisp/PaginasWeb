@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "mont";
+    src: url(font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "mont2";
+    src: url(font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "mont3";
+    src: url(font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "mont4";
+    src: url(font/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "nhl";
+    src: url(font/NHL.ttf);
+}
+
+.linha{
+    background-color: black;
+    height: 50px;
+    width: 1500px;
+}
+.comeco{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    font-family: "nhl";
+}
+.comeco h1{
+    letter-spacing: 3px;
+    font-size: 96px;
+    position: relative;
+    left: 50px;
+    font-weight: 100;
+}
+.color{
+    color: #B34C4C;
+}
+.intro{
+    background-color: black;
+    color: white;
+    font-family: "mont";
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.intro h2{
+    font-weight: 100;
+    width: 950px;
+    font-size: 30px;
+}
+.curi1{
+    display: flex;
+    margin: 80px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.titulo{
+    font-family: "mont3";
+    font-size: 72px;
+}
+.text{
+    font-family: "mont";
+    font-weight: 500;
+    width: 670px;
+    text-align: justify;
+    font-size: 30px;
+}
+.linha2{
+    height: 2.5px;
+    width: 650px;
+    background-color: black;
+}
+.linha3{
+    height: 2.5px;
+    width: 650px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+}
+.titulo2{
+    font-family: "mont3";
+    font-size: 68px;
+    text-align: center;
+}
+.text2{
+    font-family: "mont";
+    font-weight: 500;
+    width: 670px;
+    text-align: justify;
+    font-size: 30px;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+.img2{
+    position: relative;
+    left: 270px;
+}
+.curi2{
+    display: flex;
+    margin: 90px;
+}
+.linha4{
+    height: 2.5px;
+    width: 650px;
+    background-color: black;
+    position: relative;
+    left: 850px;
+}
+.curi4{
+    display: flex;
+    margin: 40px;
+    position: relative;
+    right: 40px;
+    top: 80px;
+}
+.linha5{
+    height: 2.5px;
+    width: 750px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+}
+.linha6{
+    height: 2.5px;
+    width: 650px;
+    background-color: black;
+    position: relative;
+    left: 850px;
+    top: 90px;
+}
+.final{
+    background-color: black;
+    font-family: "mont";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    position: relative;
+    top: 180px;
+}
+.final h2{
+    font-weight: 100;
+}
+.final img{
+    width: 110px;
+}
